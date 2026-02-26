@@ -1,0 +1,12 @@
+# macOS Metadaten
+._*
+.DS_Store
+__MACOSX/
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# WSL2 / Build-Artefakte (liegen nicht hier, aber sicherheitshalber)
+*.tar.gz
+*.log

@@ -1,0 +1,20 @@
+# =============================================================================
+# WSL2 .wslconfig — Speichern unter: C:\Users\DEIN_NAME\.wslconfig
+# (Dateiname: .wslconfig — ohne .txt-Endung!)
+# =============================================================================
+[wsl2]
+# 32 GB für Android-Build — AOSP Ninja-Phase braucht ~14-16 GB
+memory=32GB
+
+# 8 GB Swap als Puffer
+swap=8GB
+
+# CPU-Kerne (alle verfügbaren nutzen)
+processors=16
+
+# Netzwerk-Modus (Standard für Portweiterleitung)
+networkingMode=mirrored
+
+# Festplatten-Performance verbessern
+[experimental]
+sparseVhd=true
